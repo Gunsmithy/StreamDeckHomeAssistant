@@ -1,6 +1,12 @@
 # StreamDeckHomeAssistant
 Unofficial Elgato Stream Deck plugin for simple control of Home Assistant devices, entities and services.
 
+## Note
+If you're reading this, you should probably check out [cgiesche/streamdeck-homeassistant](https://github.com/cgiesche/streamdeck-homeassistant) instead.  
+I created this project without doing a proper search of the Home Assistant forums for better options.  
+While I love my weekend creation and its simplicity, power users are probably better off with the above.  
+For those still curious, read on!
+
 ## Installation
 If you're at this repo, you're probably installing the plugin manually instead of through the store.  
 Luckily, that's still pretty easy to do! You just don't get automatic updates.  
