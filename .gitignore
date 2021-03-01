@@ -102,3 +102,9 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Ignore Stream Deck Distribution Tool
+DistributionTool.exe
+
+# Ignore Release folder
+Release/

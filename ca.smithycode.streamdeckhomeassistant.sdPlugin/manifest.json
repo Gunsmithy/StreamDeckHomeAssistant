@@ -1,0 +1,195 @@
+{
+  "Actions": [
+    {
+      "Icon": "images/binarySensorActionIcon", 
+      "Name": "Binary Sensor", 
+      "States": [
+        {
+          "Image": "images/binarySensorOffIcon",
+          "Name": "Off",
+          "Title": "Off",
+          "TitleAlignment": "bottom", 
+          "FontSize": "10"
+        },
+        {
+          "Image": "images/binarySensorOnIcon",
+          "Name": "On",
+          "Title": "On",
+          "TitleAlignment": "bottom", 
+          "FontSize": "10"
+        },
+        {
+          "Image": "images/unavailableIcon",
+          "Name": "Unavailable",
+          "Title": "Unavailable",
+          "TitleAlignment": "bottom", 
+          "FontSize": "10"
+        }
+      ], 
+      "SupportedInMultiActions": false,
+      "Tooltip": "View a Binary Sensor Entity in Home Assistant.", 
+      "UUID": "ca.smithycode.streamdeckhomeassistant.binary-sensor"
+    },
+    {
+      "Icon": "images/callServiceActionIcon", 
+      "Name": "Call Service", 
+      "States": [
+        {
+          "Image": "images/callServiceIcon",
+          "Name": "Service",
+          "Title": "Service",
+          "TitleAlignment": "bottom", 
+          "FontSize": "10"
+        }
+      ], 
+      "SupportedInMultiActions": false,
+      "Tooltip": "Call a Service in Home Assistant with a JSON payload.", 
+      "UUID": "ca.smithycode.streamdeckhomeassistant.call-service"
+    },
+    {
+      "Icon": "images/coverActionIcon", 
+      "Name": "Cover", 
+      "States": [
+        {
+          "Image": "images/coverOpenIcon",
+          "Name": "Open",
+          "Title": "Open",
+          "TitleAlignment": "bottom", 
+          "FontSize": "10"
+        },
+        {
+          "Image": "images/coverClosedIcon",
+          "Name": "Closed",
+          "Title": "Closed",
+          "TitleAlignment": "bottom", 
+          "FontSize": "10"
+        },
+        {
+          "Image": "images/unavailableIcon",
+          "Name": "Unavailable",
+          "Title": "Unavailable",
+          "TitleAlignment": "bottom", 
+          "FontSize": "10"
+        }
+      ], 
+      "SupportedInMultiActions": false,
+      "Tooltip": "Toggle a Cover Entity in Home Assistant.", 
+      "UUID": "ca.smithycode.streamdeckhomeassistant.cover"
+    },
+    {
+      "Icon": "images/lightActionIcon", 
+      "Name": "Light", 
+      "States": [
+        {
+          "Image": "images/lightOffIcon",
+          "Name": "Off",
+          "Title": "Off",
+          "TitleAlignment": "bottom", 
+          "FontSize": "10"
+        },
+        {
+          "Image": "images/lightOnIcon",
+          "Name": "On",
+          "Title": "On",
+          "TitleAlignment": "bottom", 
+          "FontSize": "10"
+        },
+        {
+          "Image": "images/unavailableIcon",
+          "Name": "Unavailable",
+          "Title": "Unavailable",
+          "TitleAlignment": "bottom", 
+          "FontSize": "10"
+        }
+      ], 
+      "SupportedInMultiActions": false,
+      "Tooltip": "Toggle a Light Entity in Home Assistant.", 
+      "UUID": "ca.smithycode.streamdeckhomeassistant.light"
+    },
+    {
+      "Icon": "images/lockActionIcon", 
+      "Name": "Lock", 
+      "States": [
+        {
+          "Image": "images/lockUnlockedIcon",
+          "Name": "Unlocked",
+          "Title": "Unlocked",
+          "TitleAlignment": "bottom", 
+          "FontSize": "10"
+        },
+        {
+          "Image": "images/lockLockedIcon",
+          "Name": "Locked",
+          "Title": "Locked",
+          "TitleAlignment": "bottom", 
+          "FontSize": "10"
+        },
+        {
+          "Image": "images/unavailableIcon",
+          "Name": "Unavailable",
+          "Title": "Unavailable",
+          "TitleAlignment": "bottom", 
+          "FontSize": "10"
+        }
+      ], 
+      "SupportedInMultiActions": false,
+      "Tooltip": "Toggle a Lock Entity in Home Assistant.", 
+      "UUID": "ca.smithycode.streamdeckhomeassistant.lock"
+    },
+    {
+      "Icon": "images/switchActionIcon", 
+      "Name": "Switch", 
+      "States": [
+        {
+          "Image": "images/switchOffIcon",
+          "Name": "Off",
+          "Title": "Off",
+          "TitleAlignment": "bottom", 
+          "FontSize": "10"
+        },
+        {
+          "Image": "images/switchOnIcon",
+          "Name": "On",
+          "Title": "On",
+          "TitleAlignment": "bottom", 
+          "FontSize": "10"
+        },
+        {
+          "Image": "images/unavailableIcon",
+          "Name": "Unavailable",
+          "Title": "Unavailable",
+          "TitleAlignment": "bottom", 
+          "FontSize": "10"
+        }
+      ], 
+      "SupportedInMultiActions": false,
+      "Tooltip": "Toggle a Switch Entity in Home Assistant.", 
+      "UUID": "ca.smithycode.streamdeckhomeassistant.switch"
+    }
+  ], 
+  "SDKVersion": 2,
+  "Author": "Gunsmithy",
+  "CodePath": "index.html",
+  "PropertyInspectorPath": "propertyinspector/index.html",
+  "Description": "Unofficial plugin for simple control of Home Assistant entities and services.",
+  "Name": "Home Assistant",
+  "Icon": "images/home-assistant",
+  "Category": "Home Assistant",
+  "CategoryIcon": "images/home-assistant-category",
+  "URL": "https://github.com/Gunsmithy/StreamDeckHomeAssistant",
+  "Version": "0.1",
+  "OS": [
+    {
+        "Platform": "mac", 
+        "MinimumVersion" : "10.11"
+    },
+    {
+        "Platform": "windows", 
+        "MinimumVersion" : "10"
+    }
+  ],
+  "Software": 
+    {
+        "MinimumVersion" : "4.1"
+    }
+}

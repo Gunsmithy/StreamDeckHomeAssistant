@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,minimal-ui,viewport-fit=cover">
+        <meta name=apple-mobile-web-app-capable content=yes>
+        <meta name=apple-mobile-web-app-status-bar-style content=black>
+        <title>ca.smithycode.streamdeckhomeassistant Property Inspector</title>
+        <link rel="stylesheet" href="css/sdpi.css">
+    </head>
+    <body>
+        <div class="sdpi-wrapper">
+            <div class="sdpi-item" id="hass_endpoint" title="Enter the URL with port to your Home Assistant instance.">
+                <div class="sdpi-item-label">Endpoint</div> 
+                <input class="sdpi-item-value" id="hassEndpoint" value="" placeholder="homeassistant.local:8123" required>
+            </div>
+
+            <div class="sdpi-item" type="radio" id="secure_radio" title="Select whether or not your Home Assistant API is secured with TLS.">
+                <div class="sdpi-item-label">Secure</div>
+                <div class="sdpi-item-value ">
+                    <div class="sdpi-item-child">
+                        <input id="secureRadioNo" type="radio" value="No" name="rdio" >
+                        <label for="secureRadioNo" class="sdpi-item-label"><span></span>No</label>
+                    </div>
+                    <div class="sdpi-item-child">
+                        <input id="secureRadioYes" type="radio" value="Yes" name="rdio">
+                        <label for="secureRadioYes" class="sdpi-item-label"><span></span>Yes</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sdpi-item" id="hass_token" title="Enter the Long-lived Access Token for your Home Assistant API.">
+                <div class="sdpi-item-label">Token</div> 
+                <input type="password" id="hassToken" class="sdpi-item-value" value="" placeholder="Your Home Assistant API token." required>
+            </div>
+
+            <div class="sdpi-item" id="select_entity" style="visibility: hidden;" title="Select the entity or service to associate with this action button.">
+				<div class="sdpi-item-label" id="select_entity_label"></div>
+				<select class="sdpi-item-value select" id="currentSelectedID"></select>
+			</div>
+
+            <div class="sdpi-item" type="textarea" id="service_payload" style="visibility: hidden;" title="Input the JSON payload to be sent to the selected service.">
+                <div class="sdpi-item-label">Payload</div>
+                <span class="sdpi-item-value textarea">
+                    <textarea type="textarea" id="servicePayload"></textarea>
+                </span>
+            </div>
+ 		</div>
+
+        <div class="sdpi-info-label hidden" style="top: -1000;" value=""></div>
+        <script src="js/common.js"></script>
+        <script src="js/common_pi.js"></script>
+        <script src="js/index_pi.js"></script>
+    </body>
+    </html>

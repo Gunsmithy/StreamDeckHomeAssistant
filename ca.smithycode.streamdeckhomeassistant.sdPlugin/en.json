@@ -1,0 +1,104 @@
+{
+  "Description": "Unofficial plugin for simple control of Home Assistant entities and services.", 
+  "Name": "Home Assistant", 
+  "ca.smithycode.streamdeckhomeassistant.binary-sensor": {
+    "Name": "Binary Sensor", 
+    "Tooltip": "View a Binary Sensor Entity in Home Assistant.",
+    "States": [
+      {
+        "Name": "Off",
+        "Title": "Off"
+      },
+      {
+        "Name": "On",
+        "Title": "On"
+      },
+      {
+        "Name": "Unavailable",
+        "Title": "Unavailable"
+      }
+    ]
+  },
+  "ca.smithycode.streamdeckhomeassistant.call-service": {
+    "Name": "Call Service", 
+    "Tooltip": "Call a Service in Home Assistant with a JSON payload.",
+    "States": [
+      {
+        "Name": "Service",
+        "Title": "Service"
+      }
+    ]
+  },
+  "ca.smithycode.streamdeckhomeassistant.cover": {
+    "Name": "Cover", 
+    "Tooltip": "Toggle a Cover Entity in Home Assistant.",
+    "States": [
+      {
+        "Name": "Open",
+        "Title": "Open"
+      },
+      {
+        "Name": "Closed",
+        "Title": "Closed"
+      },
+      {
+        "Name": "Unavailable",
+        "Title": "Unavailable"
+      }
+    ]
+  },
+  "ca.smithycode.streamdeckhomeassistant.light": {
+    "Name": "Light", 
+    "Tooltip": "Toggle a Light Entity in Home Assistant.",
+    "States": [
+      {
+        "Name": "Off",
+        "Title": "Off"
+      },
+      {
+        "Name": "On",
+        "Title": "On"
+      },
+      {
+        "Name": "Unavailable",
+        "Title": "Unavailable"
+      }
+    ]
+  },
+  "ca.smithycode.streamdeckhomeassistant.lock": {
+    "Name": "Lock", 
+    "Tooltip": "Toggle a Lock Entity in Home Assistant.",
+    "States": [
+      {
+        "Name": "Unlocked",
+        "Title": "Unlocked"
+      },
+      {
+        "Name": "Locked",
+        "Title": "Locked"
+      },
+      {
+        "Name": "Unavailable",
+        "Title": "Unavailable"
+      }
+    ]
+  },
+  "ca.smithycode.streamdeckhomeassistant.switch": {
+    "Name": "Switch", 
+    "Tooltip": "Toggle a Switch Entity in Home Assistant.",
+    "States": [
+      {
+        "Name": "Off",
+        "Title": "Off"
+      },
+      {
+        "Name": "On",
+        "Title": "On"
+      },
+      {
+        "Name": "Unavailable",
+        "Title": "Unavailable"
+      }
+    ]
+  }
+}
